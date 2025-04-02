@@ -62,4 +62,16 @@
     }
   }
 
+  //Media Query
+
+@media (max-width:$breakpoint-mobile){
+  .languages{
+    max-width: 423px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
   
