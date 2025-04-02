@@ -663,7 +663,7 @@ html {
 
 @media (max-width: 768px) {
   .skills__card .skills__card-img {
-    width: 100%;
+    width: 160px;
     height: 180px;
     object-fit: cover;
   }
