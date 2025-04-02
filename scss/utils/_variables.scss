@@ -1,0 +1,32 @@
+// === COLOR PALETTE ===
+$primary-color: #eedfbe;
+$secondary-color: #ac7221;
+$bg-color: #2c2a24;
+$hover-color: #252525;
+$header-color: #302d26;
+$white: #fff;
+$card-hover:#8f652e;
+$card-hover2:rgb(88, 68, 43);
+$card-bg:#37342b;
+
+
+
+
+// === FONT SYSTEM ===
+$font-stack: 'Poppins', sans-serif;
+
+// === BORDER, RADIUS & SHADOWS ===
+$border-radius: 7px;
+$box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+$box-shadow-hover: 0 5px 15px rgba(0, 0, 0, 0.15);
+
+// === TRANSITIONS ===
+$transition-speed: 0.3s;
+$transition-standard: all 0.3s ease;
+$transition-slow: all 0.9s ease;
+$transition-fast: all 0.2s ease;
+
+// === BREAKPOINTS ===
+$breakpoint-mobile: 480px;
+$breakpoint-tablet: 768px;
+$breakpoint-desktop: 1024px;

@@ -1,0 +1,65 @@
+.languages {
+    background-color: $header-color;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 5rem 7rem;
+    max-width: 551px;
+    margin: 0 auto;
+    margin-bottom: 76px;
+    text-align: center;
+    color: $white;
+    border-radius: $border-radius;
+    transition: $transition-standard;
+    
+
+
+    &:hover{
+        transform: translateY(-5px);
+        box-shadow: $box-shadow-hover;
+        background-color: $card-hover2;
+    }
+  
+    &__title {
+      font-size: 2rem;
+      margin-bottom: 2rem;
+      color: $primary-color;
+      position: relative;
+  
+      &::after {
+        content: '';
+        display: block;
+        width: 60px;
+        height: 3px;
+        background-color: $secondary-color;
+        margin: 0.5rem auto 0;
+        border-radius: 2px;
+      }
+    }
+    
+  
+    &__list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+  
+    &__item {
+        width: 100%; // or set a fixed width like 300px
+        max-width: 150px;
+        margin: 0 auto;
+        padding: 0.5rem;
+        display: flex;
+        justify-content: center;
+
+      &:hover{
+        cursor: pointer;
+      }
+    }
+  
+    &__level {
+      color: $secondary-color;
+      margin-left: 0.5rem;
+    }
+  }
+
+  

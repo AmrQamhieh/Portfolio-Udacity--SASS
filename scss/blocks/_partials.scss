@@ -1,0 +1,25 @@
+.btn {
+    padding: 10px 20px;
+    background: $bg-color;
+    color: $white;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  
+    &:hover {
+      background: $hover-color;
+    }
+  }
+
+  .social-icons {
+    display: flex;
+    gap: 1rem;
+  
+    a {
+      color: $white;
+      font-size: 1.2rem;
+  
+      &:hover {
+        color: $secondary-color;
+      }
+    }
+  }

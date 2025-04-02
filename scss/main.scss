@@ -1,0 +1,19 @@
+// utils
+@import 'utils/variables';
+@import 'utils/mixins';
+@import 'utils/utils';
+
+// base styles
+@import 'base/resets';
+@import 'base/base';
+
+
+// blocks
+@import 'blocks/header';
+@import 'blocks/footer';
+@import 'blocks/partials';
+@import 'blocks/blocks';
+@import 'blocks/landing';
+@import 'blocks/projects';
+@import 'blocks/skills';
+@import 'blocks/languages';

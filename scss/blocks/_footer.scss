@@ -1,0 +1,33 @@
+.footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  background-color: $header-color;
+  color: $white;
+
+  &__text {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    color: $primary-color;
+  }
+  &__contact{
+    margin-bottom: 14px;
+    color: #ac7221;
+  }
+  &__socials {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  &__icon {
+    font-size: 1.25rem;
+    color: $white;
+    transition: $transition-standard;
+
+    &:hover {
+      color: $secondary-color;
+      transform: translateY(-2px);
+    }
+  }
+}
+

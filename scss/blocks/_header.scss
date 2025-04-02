@@ -1,0 +1,85 @@
+
+// Header & Navigation
+.header__container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: $header-color;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+
+  .navbar {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__logo {
+      font-size: 1.7rem;
+      font-weight: 700;
+      color: $white;
+      text-decoration: none;
+      
+      &:hover {
+        color: $secondary-color;
+      }
+    }
+
+    &__menu {
+      display: flex;
+      gap: 2rem;
+      list-style: none;
+      margin-left: 52px;
+      padding: 0;
+
+      &__list {
+        a {
+          color: $white;
+          text-decoration: none;
+          font-weight: 500;
+          transition: $transition-fast;
+          margin-right: 10px;
+          margin-left: 22px;
+    
+
+        
+          &:hover {
+            color: $secondary-color;
+            transform: translateX(-6px);
+          }
+        }
+      }
+    }
+
+    .download-container {
+      .download {
+        @include button-style;
+        background-color: #533b1f;
+        color: white;
+        border: none;
+
+        &:hover {
+          background-color: $secondary-color;
+          transform: translateY(-2px);
+        }
+      }
+    }
+
+    &__toggle {
+      display: none;
+      cursor: pointer;
+    .navbar__toggle__bar{
+      fill: white;
+      height: 27px;
+
+    }
+
+      &__bar {
+        transition: transform $transition-speed ease;
+      }
+    }
+  }
+}
