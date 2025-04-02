@@ -90,9 +90,11 @@
         border-radius: 10px;
         color: black;
         font-weight: bold;
+        transition: $transition-standard;
     
         &:hover {
           background-color: #df9d47;
+          transform: translateY(3px) translateX(-1px);
         }
         
       }
@@ -131,6 +133,24 @@
   .landing__section{
     grid-template-columns: 1fr;
     text-align: center;
+
+    .img{
+      .person{
+        width: 70%;
+      }
+    }
+
+    .about__container{
+      .pargraph{
+        max-width: 700px;
+        margin: 0 auto;
+        text-align: center;
+        line-height: 1.7;
+        font-size: 1rem;
+        color: $white;
+        padding: 0px 37px 33px;
+      }
+    }
 
     .img {
       order: -1;
