@@ -1,180 +1,263 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="dist/main.css">
-    <script src="https://kit.fontawesome.com/cefa5c8f74.js" crossorigin="anonymous"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="dist/main.css" />
+    <script
+      src="https://kit.fontawesome.com/cefa5c8f74.js"
+      crossorigin="anonymous"
+    ></script>
 
     <title>My Portfolio Website</title>
-</head>
-<body>
+  </head>
+  <body>
     <header class="header__container">
-        <nav class="navbar">
-            <a href="#home" class="navbar__logo">Portfolio</a>
-            <ul class="navbar__menu">
-                <li class="navbar__menu__list"><a href="#home">Home</a></li>
-                <li class="navbar__menu__list"><a href="#projects">Projects</a></li>
-                <li class="navbar__menu__list"><a href="#skills">Skills</a></li>
-                <li class="navbar__menu__list"><a href="#contact">Contact</a></li>
-            </ul>
-            <div class="download-container">
-              <button class="download">Download CV</button>
-            </div>        
-            <div class="navbar__toggle">
-              <svg class="navbar__toggle__bar" xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
-            </div>
-        </nav>
+      <nav class="navbar">
+        <a href="#home" class="navbar__logo">Portfolio</a>
+        <ul class="navbar__menu">
+          <li class="navbar__menu__list"><a href="#home">Home</a></li>
+          <li class="navbar__menu__list"><a href="#projects">Projects</a></li>
+          <li class="navbar__menu__list"><a href="#skills">Skills</a></li>
+          <li class="navbar__menu__list"><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="download-container">
+          <button class="download">Download CV</button>
+        </div>
+        <div class="navbar__toggle">
+          <svg
+            class="navbar__toggle__bar"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 -960 960 960"
+            width="24px"
+            fill="#000000"
+          >
+            <path
+              d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"
+            />
+          </svg>
+        </div>
+      </nav>
     </header>
     <main class="landing__section" id="home">
-        <div class="img">
-          <img class="person" src="Images/photo.avif" alt="A photo of Amr Qamhieh" />
+      <div class="img">
+        <img
+          class="person"
+          src="Images/photo.avif"
+          alt="A photo of Amr Qamhieh"
+        />
+      </div>
+
+      <section class="about__container">
+        <div class="about__me">
+          <h1 class="hi">Hi, I'm Amr Qamhieh</h1>
+          <h2 class="work">Frontend Developer</h2>
         </div>
-      
-        <section class="about__container">
-          <div class="about__me">
-            <h1 class="hi">Hi, I'm Amr Qamhieh</h1>
-            <h2 class="work">Frontend Developer</h2>
+
+        <p class="pargraph">
+          I'm a passionate Frontend Developer with a strong foundation in HTML,
+          CSS, SCSS, and JavaScript. I specialize in building responsive,
+          accessible, and user-friendly web applications with scalable,
+          maintainable code. From concept to deployment, I focus on performance,
+          modern UI/UX design, and seamless user experiences. I'm always
+          learning and exploring new technologies to craft impactful digital
+          solutions.
+        </p>
+
+        <div class="buttons__container">
+          <div class="buttons">
+            <a
+              href="https://github.com/AmrQamhieh"
+              class="github"
+              target="_blank"
+              aria-label="GitHub"
+            >
+              <i class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/amr-qamhieh-a84382329/"
+              class="github"
+              target="_blank"
+              aria-label="LinkedIn"
+            >
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a
+              href="https://x.com/QamAmrrr"
+              class="github"
+              target="_blank"
+              aria-label="Twitter"
+            >
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a
+              href="https://www.facebook.com/amr.qamhieh/"
+              class="github"
+              target="_blank"
+              aria-label="Facebook"
+            >
+              <i class="fab fa-facebook-f"></i>
+            </a>
           </div>
-      
-          <p class="pargraph">
-            passionate about building clean, responsive, and user-friendly web experiences. I specialize in HTML, CSS, SASS, and modern front-end technologies. With a background in MIS, I’m constantly growing through real-world projects and love bringing ideas to life through coding.
+        </div>
+
+        <div class="get__started">
+          <button class="started"><a href="#projects">Get Started!</a></button>
+        </div>
+      </section>
+    </main>
+    <section class="projects" id="projects">
+      <h2 class="projects__title">Latest Projects</h2>
+      <div class="projects__cards">
+        <div class="cards">
+          <img
+            src="Images/placeholder-1.jpg"
+            alt="Sentiment Analysis Project"
+            class="cards__img"
+          />
+          <h3 class="cards__title">Sentiment Analysis on Amazon Reviews</h3>
+          <p class="cards__desc">
+            Built a web-based sentiment analysis tool that scrapes product
+            reviews from Amazon, analyzes sentiments, and displays results in a
+            dynamic dashboard.
           </p>
-      
-          <div class="buttons__container">
-            <div class="buttons">
-              <a href="https://github.com/AmrQamhieh" class="github" target="_blank" aria-label="GitHub">
-                <i class="fab fa-github"></i>
-              </a>
-              <a href="https://www.linkedin.com/in/amr-qamhieh-a84382329/" class="github" target="_blank" aria-label="LinkedIn">
-                <i class="fab fa-linkedin"></i>
-              </a>
-              <a href="https://x.com/QamAmrrr" class="github" target="_blank" aria-label="Twitter">
-                <i class="fab fa-twitter"></i>
-              </a>
-              <a href="https://www.facebook.com/amr.qamhieh/" class="github" target="_blank" aria-label="Facebook">
-                <i class="fab fa-facebook-f"></i>
-              </a>
-            </div>
-          </div>
-          
-          <div class="get__started">
-            <button class="started"><a href="#projects">Get Started!</a></button>
-          </div>
-        </section>
-      </main>
-      <section class="projects" id="projects">
-        <h2 class="projects__title">Latest Projects</h2>
-        <div class="projects__cards">
-          
-          <div class="cards">
-            <img src="Images/placeholder-1.jpg" alt="Sentiment Analysis Project" class="cards__img" />
-            <h3 class="cards__title">Sentiment Analysis on Amazon Reviews</h3>
-            <p class="cards__desc">
-              Built a web-based sentiment analysis tool that scrapes product reviews from Amazon, analyzes sentiments, and displays results in a dynamic dashboard.
-            </p>
-            <span class="cards__tools">Tools: Python, TypeScript</span>
-          </div>
-      
-          <div class="cards">
-            <img src="Images/placeholder2.jpg" alt="UI/UX Project" class="cards__img" />
-            <h3 class="cards__title">UI/UX Design for SoulGYM</h3>
-            <p class="cards__desc">
-              Designed a modern mobile app UI focused on usability, aesthetics, and user engagement for the SoulGYM brand.
-            </p>
-            <span class="cards__tools">Tools: Figma</span>
-          </div>
-      
-          <div class="cards">
-            <img src="Images/placeholder3.JPG" alt="Frontend Website Freelance Project" class="cards__img" />
-            <h3 class="cards__title">Frontend Website (Freelance Project)</h3>
-            <p class="cards__desc">
-              Designed and built a full website with a landing page and authentication flow (signup/sign-in) using HTML and CSS.
-            </p>
-            <span class="cards__tools">Tools: HTML, CSS</span>
-          </div>
-
-          <div class="cards">
-            <img src="Images/placeholder-4.jpg" alt="Data Analysis Project" class="cards__img" />
-            <h3 class="cards__title">Data Analysis on Socioeconomic Impact</h3>
-            <p class="cards__desc">
-              Analyzed how socioeconomic status affects academic success using SPSS. Cleaned, preprocessed, and interpreted statistical data.
-            </p>
-            <span class="cards__tools">Tools: SPSS</span>
-          </div>
-          <div class="cards">
-            <img src="Images/placeholder5.jpg" alt="Strategic Plan for Swift Technology" class="cards__img" />
-            <h3 class="cards__title">Strategic Plan for Swift Technology Company</h3>
-            <p class="cards__desc">
-              Developed a strategic plan for Swift Technology to enhance operational efficiency and
-              market positioning
-            </p>
-            <span class="cards__tools">Tools: Strategy-Formulation Framework</span>
-          </div>
+          <span class="cards__tools">Tools: Python, TypeScript</span>
         </div>
 
-        <div class="projects__btn-container">
-          <a href="https://github.com/AmrQamhieh?tab=repositories" class="view-all-btn">View All Projects</a>
+        <div class="cards">
+          <img
+            src="Images/placeholder2.jpg"
+            alt="UI/UX Project"
+            class="cards__img"
+          />
+          <h3 class="cards__title">UI/UX Design for SoulGYM</h3>
+          <p class="cards__desc">
+            Designed a modern mobile app UI focused on usability, aesthetics,
+            and user engagement for the SoulGYM brand.
+          </p>
+          <span class="cards__tools">Tools: Figma</span>
         </div>
-      </section>
 
-      <section class="skills" id="skills">
-        <h2 class="skills__title">Skills</h2>
-      
-        <div class="skills__grid">
-      
-          <div class="skills__card">
-            <img src="Images/skills.jpg" alt="Skills image" class="skills__card-img">
-            <ul class="skills__list">
-              <li class="skills__item">HTML</li>
-              <li class="skills__item">CSS</li>
-              <li class="skills__item">Sass</li>
-              <li class="skills__item">JavaScript</li>
-              <li class="skills__item">UI/UX</li>
-              <li class="skills__item">Data Analysis</li>
-            </ul>
-          </div>
-      
-          <div class="skills__card">
-            <img src="Images/soft-skills.webp" alt="Soft skills image" class="skills__card-img">
-            <ul class="skills__list">
-              <li class="skills__item">Teamwork</li>
-              <li class="skills__item">Effective Communication</li>
-              <li class="skills__item">Critical Thinking</li>
-            </ul>
-          </div>
-      
+        <div class="cards">
+          <img
+            src="Images/placeholder3.JPG"
+            alt="Frontend Website Freelance Project"
+            class="cards__img"
+          />
+          <h3 class="cards__title">Frontend Website (Freelance Project)</h3>
+          <p class="cards__desc">
+            Designed and built a full website with a landing page and
+            authentication flow (signup/sign-in) using HTML and CSS.
+          </p>
+          <span class="cards__tools">Tools: HTML, CSS</span>
         </div>
-      </section>
 
-      <section class="languages" id="languages">
-        <h2 class="languages__title">Languages</h2>
-        <ul class="languages__list">
-          <li class="languages__item">Arabic <span class="languages__level">(Native)</span></li>
-          <li class="languages__item">English <span class="languages__level">(Fluent)</span></li>
-        </ul>
-      </section>
-      
+        <div class="cards">
+          <img src="Images/todo.png" alt="Todo App" class="cards__img" />
+          <h3 class="cards__title">Todo App</h3>
+          <p class="cards__desc">
+            A lightweight Todo App built with JavaScript, HTML, and CSS.
+            Includes task creation, status toggling, deletion, filtering
+            (All/Active/Completed), date display, and localStorage support.
+            Designed with clean UI and modular, maintainable code.
+          </p>
+          <span class="cards__tools">Tools: JavaScript, HTML, CSS </span>
+        </div>
+      </div>
 
-      <footer class="footer" id="contact">
-        <p class="footer__text">&copy; Amr Qamhieh 2025</p>
+      <div class="projects__btn-container">
+        <a
+          href="https://github.com/AmrQamhieh?tab=repositories"
+          class="view-all-btn"
+          >View All Projects</a
+        >
+      </div>
+    </section>
+
+    <section class="skills" id="skills">
+      <h2 class="skills__title">Skills</h2>
+
+      <div class="skills__grid">
+        <div class="skills__card">
+          <img
+            src="Images/skills.jpg"
+            alt="Skills image"
+            class="skills__card-img"
+          />
+          <ul class="skills__list">
+            <li class="skills__item">HTML</li>
+            <li class="skills__item">CSS</li>
+            <li class="skills__item">Sass</li>
+            <li class="skills__item">JavaScript</li>
+            <li class="skills__item">UI/UX</li>
+            <li class="skills__item">Data Analysis</li>
+          </ul>
+        </div>
+
+        <div class="skills__card">
+          <img
+            src="Images/soft-skills.webp"
+            alt="Soft skills image"
+            class="skills__card-img"
+          />
+          <ul class="skills__list">
+            <li class="skills__item">Teamwork</li>
+            <li class="skills__item">Effective Communication</li>
+            <li class="skills__item">Critical Thinking</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="languages" id="languages">
+      <h2 class="languages__title">Languages</h2>
+      <ul class="languages__list">
+        <li class="languages__item">
+          Arabic <span class="languages__level">(Native)</span>
+        </li>
+        <li class="languages__item">
+          English <span class="languages__level">(Fluent)</span>
+        </li>
+      </ul>
+    </section>
+
+    <footer class="footer" id="contact">
+      <p class="footer__text">&copy; Amr Qamhieh 2025</p>
       <h4 class="footer__contact">Contact Me!</h4>
-        <div class="footer__socials">
-          <a href="https://x.com/QamAmrrr" class="footer__icon" target="_blank" aria-label="X (Twitter)">
-            <i class="fab fa-x-twitter"></i>
-          </a>
-          <a href="https://www.linkedin.com/in/amr-qamhieh-a84382329/" class="footer__icon" target="_blank" aria-label="LinkedIn">
-            <i class="fab fa-linkedin-in"></i>
-          </a>
-          <a href="https://github.com/AmrQamhieh" class="footer__icon" target="_blank" aria-label="GitHub">
-            <i class="fab fa-github"></i>
-          </a>
-          <a href="https://www.facebook.com/amr.qamhieh/" class="footer__icon" target="_blank" aria-label="Facebook">
-            <i class="fab fa-facebook-f"></i>
-          </a>
-        </div>
-      </footer>
-      
-      
-</body>
+      <div class="footer__socials">
+        <a
+          href="https://x.com/QamAmrrr"
+          class="footer__icon"
+          target="_blank"
+          aria-label="X (Twitter)"
+        >
+          <i class="fab fa-x-twitter"></i>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/amr-qamhieh-a84382329/"
+          class="footer__icon"
+          target="_blank"
+          aria-label="LinkedIn"
+        >
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a
+          href="https://github.com/AmrQamhieh"
+          class="footer__icon"
+          target="_blank"
+          aria-label="GitHub"
+        >
+          <i class="fab fa-github"></i>
+        </a>
+        <a
+          href="https://www.facebook.com/amr.qamhieh/"
+          class="footer__icon"
+          target="_blank"
+          aria-label="Facebook"
+        >
+          <i class="fab fa-facebook-f"></i>
+        </a>
+      </div>
+    </footer>
+  </body>
 </html>
