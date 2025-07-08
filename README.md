@@ -44,9 +44,9 @@ I'm a passionate Front-End Developer with a background in MIS, focused on buildi
 ## 📫 Contact
 
 - GitHub: [AmrQamhieh](https://github.com/AmrQamhieh)
-- LinkedIn: [Your LinkedIn Profile](#)
-- Twitter/X: [@yourhandle](#)
-- Email: your@email.com (optional)
+- LinkedIn: [LinkedIn Profile](https://www.linkedin.com/in/amrqamhieh/)
+- Twitter/X: [X]([#](https://x.com/QamAmrrr))
+- Email: gmail (amrqam12@gmail.com)
 
 ---
 
