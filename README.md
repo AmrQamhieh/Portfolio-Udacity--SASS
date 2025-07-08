@@ -43,10 +43,10 @@ I'm a passionate Front-End Developer with a background in MIS, focused on buildi
 
 ## 📫 Contact
 
-- GitHub: [AmrQamhieh](https://github.com/AmrQamhieh)
-- LinkedIn: [LinkedIn Profile](https://www.linkedin.com/in/amrqamhieh/)
-- Twitter/X: [X]([#](https://x.com/QamAmrrr))
-- Email: gmail (amrqam12@gmail.com)
+- GitHub: [AmrQamhieh](https://github.com/AmrQamhieh)  
+- LinkedIn: [linkedin.com/in/amrqamhieh](https://www.linkedin.com/in/amrqamhieh/)  
+- Twitter/X: [@QamAmrrr](https://x.com/QamAmrrr)  
+- Email: [amrqam12@gmail.com](mailto:amrqam12@gmail.com)
 
 ---
 
